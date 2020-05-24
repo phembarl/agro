@@ -11,6 +11,7 @@ const body = () => (
       text="The AgroCola’s commitment is to create opportunities for the youth to thrive by engaging in agriculture and various agribusinesses. AgroCola is the integrated agricultural production platform that is built on digital technology."
       imageName="jigsaw"
     />
+    <div className="left-curve" />
 
     <Info
       title="Our Policies and Resolution"
@@ -18,6 +19,7 @@ const body = () => (
       imageName="gavel"
       readMore
     />
+    <div className="right-curve" />
 
     <Info
       title="Our Sustainable Agriculture Philosophy"
@@ -25,6 +27,7 @@ const body = () => (
       imageName="bulb"
       readMore
     />
+    <div className="curvy" />
 
     <CloserLook />
 
@@ -37,11 +40,11 @@ const body = () => (
       <div className="flex-column-center our_story w-40">
         <h1>Hear Our Story</h1>
         <img src={require('../../assets/images/boy.svg')} alt="agrocrop hear our story" width="80%" height="auto" />
-        <div className="bending_curve" />
+        <div className="curviette" />
       </div>
     </div>
     <div className="flex-column reshape_container">
-      <div className="right_curve_v2" />
+      <div className="right_curve2" />
       <div className="flex-column-center m-auto">
         <div className="flex-row-center r_c">
           <div className="reshape_text">
