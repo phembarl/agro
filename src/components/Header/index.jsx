@@ -6,7 +6,7 @@ const Header = () => (
   <div className="header">
     <Nav />
     <div className="header-content">
-      <div className="flex-row-center">
+      <div className="flex-row-center m_hcc">
         <div className="header-content-container">
           <h1>Welcome To AgroCola</h1>
           <p>Digital Agriculture for tomorrows leaders</p>
